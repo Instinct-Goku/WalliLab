@@ -35,7 +35,7 @@ class WallpaperActivity : AppCompatActivity(),
 
 
     private fun getData(title: String = "Anime&Superheroes?") {
-        val url = "https://api.airtable.com/v0/appBgqfclzAfM8vW4/${title}?api_key=keyrUYrk94L4hPTpF"
+        val url = "YOUR API HERE" //ADD API FOR WALLPAPERS LIST
 
         val jsonObjectRequest = JsonObjectRequest(
             Request.Method.GET, url, null,

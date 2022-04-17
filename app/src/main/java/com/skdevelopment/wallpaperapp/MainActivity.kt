@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity(), itemClicked {
     }
 
     private fun getData() {
-        val url = "https://api.airtable.com/v0/app3SpF1pKZgel0U1/Categories?api_key=keyrUYrk94L4hPTpF"
+        val url = "YOUR API HERE" //ADD CATEGORY API
 
         val jsonObjectRequest = JsonObjectRequest(
             Request.Method.GET, url, null,
